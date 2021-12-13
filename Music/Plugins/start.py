@@ -35,11 +35,11 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f323bcaec71ba138fb6df.png",
+        photo=f"https://telegra.ph/file/b11ffe2a2edb0869adb44.jpg",
         caption=f"""**A Telegram Music Bot Based Mongodb.
  Add Me To Ur Chat For and Help and And Support Click On Buttons  ...
 💞  These Features A.I Based 
-Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
+Powered By [Oxʏ Bᴏᴛs](https://t.me/FallenAngel_xD) ...
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
